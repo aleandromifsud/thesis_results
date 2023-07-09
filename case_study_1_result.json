@@ -1,0 +1,461 @@
+{
+    "b3f9f407-1216-4349-827d-2477af25854c": {
+        "action": "process",
+        "id": "b3f9f407-1216-4349-827d-2477af25854c",
+        "type": "str",
+        "name": "anon_0",
+        "process_id": "b3f9f407-1216-4349-827d-2477af25854c",
+        "loc": {
+            "start_line": 2,
+            "start_column": 0,
+            "end_line": 4,
+            "end_column": 11
+        },
+        "colour": "rgb(192,255,0)",
+        "is_block": true,
+        "is_anon": true
+    },
+    "84c18f60-d2b1-4065-8e52-3c1b3035a2d8": {
+        "action": "timeout",
+        "id": "84c18f60-d2b1-4065-8e52-3c1b3035a2d8",
+        "type": "float",
+        "name": "1.0",
+        "process_id": "b3f9f407-1216-4349-827d-2477af25854c",
+        "loc": {
+            "start_line": 2,
+            "start_column": 0,
+            "end_line": 2,
+            "end_column": 11
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "18f8d0fd-fa7f-42ba-a411-6e1b00aac35d": {
+        "action": "external",
+        "id": "18f8d0fd-fa7f-42ba-a411-6e1b00aac35d",
+        "type": "str",
+        "name": "controller",
+        "process_id": "b3f9f407-1216-4349-827d-2477af25854c",
+        "loc": {
+            "start_line": 4,
+            "start_column": 0,
+            "end_line": 4,
+            "end_column": 21
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31": {
+        "action": "process",
+        "id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "type": "str",
+        "name": "coffee machine",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 6,
+            "start_column": 0,
+            "end_line": 42,
+            "end_column": 1
+        },
+        "colour": "rgb(192,255,0)",
+        "is_block": true,
+        "is_anon": false
+    },
+    "bedc69ac-77e9-4286-8775-29019cfe8603": {
+        "action": "channel",
+        "id": "bedc69ac-77e9-4286-8775-29019cfe8603",
+        "type": "str",
+        "name": "controller",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 9,
+            "start_column": 4,
+            "end_line": 20,
+            "end_column": 5
+        },
+        "colour": "rgb(192,255,0)",
+        "is_block": true,
+        "code": [
+            {
+                "action": "stimulus",
+                "id": "561bf1cc-9ee8-49f0-b1a3-a60ffe2e226c",
+                "args": [
+                    {
+                        "action": "on",
+                        "id": "a70b38aa-e1ed-4a2b-a64d-86ce34d09e95",
+                        "value": "button_pad_input",
+                        "type": "str",
+                        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                        "colour": "rgb(0,192,255)"
+                    }
+                ],
+                "type": "str",
+                "name": "button_coffee",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 10,
+                    "start_column": 8,
+                    "end_line": 10,
+                    "end_column": 56
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "stimulus",
+                "id": "e55caa30-4c5b-4e32-ad97-48a0a92ee814",
+                "type": "str",
+                "name": "button_tea",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 11,
+                    "start_column": 8,
+                    "end_line": 11,
+                    "end_column": 29
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "stimulus",
+                "id": "ce7ff133-79e3-4974-b869-dc61020b7dba",
+                "type": "str",
+                "name": "button_lemonade",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 12,
+                    "start_column": 8,
+                    "end_line": 12,
+                    "end_column": 34
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "stimulus",
+                "id": "84a1ba33-1feb-4617-a70e-13d1bd6f2892",
+                "type": "str",
+                "name": "button_hot_water",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 13,
+                    "start_column": 8,
+                    "end_line": 13,
+                    "end_column": 35
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "stimulus",
+                "id": "89182850-ef83-47c4-9725-47de00c3d70f",
+                "type": "str",
+                "name": "button_cold_water",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 14,
+                    "start_column": 8,
+                    "end_line": 14,
+                    "end_column": 36
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "response",
+                "id": "a17c1b95-8e55-4300-b71c-6526e98d8185",
+                "type": "str",
+                "name": "coffee",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 15,
+                    "start_column": 8,
+                    "end_line": 15,
+                    "end_column": 25
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "response",
+                "id": "c0dc9289-b3dc-4218-8bde-5e6ef6dbb985",
+                "type": "str",
+                "name": "tea",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 16,
+                    "start_column": 8,
+                    "end_line": 16,
+                    "end_column": 22
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "response",
+                "id": "6cab4841-ce2e-4a88-b46e-2007f3ce67db",
+                "type": "str",
+                "name": "lemonade",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 17,
+                    "start_column": 8,
+                    "end_line": 17,
+                    "end_column": 27
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "response",
+                "id": "e873cbfa-4856-41f7-b06d-09c3a6fac9d3",
+                "type": "str",
+                "name": "hot_water",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 18,
+                    "start_column": 8,
+                    "end_line": 18,
+                    "end_column": 28
+                },
+                "colour": "rgb(0,192,255)"
+            },
+            {
+                "action": "response",
+                "id": "68333f3b-94fc-47b8-9c6f-e73cdca3f732",
+                "type": "str",
+                "name": "cold_water",
+                "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                "loc": {
+                    "start_line": 19,
+                    "start_column": 8,
+                    "end_line": 19,
+                    "end_column": 29
+                },
+                "colour": "rgb(0,192,255)"
+            }
+        ]
+    },
+    "f4311bf8-6774-4a90-9826-ef61360dc184": {
+        "action": "state",
+        "id": "f4311bf8-6774-4a90-9826-ef61360dc184",
+        "type": "str",
+        "name": "start",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 24,
+            "start_column": 4,
+            "end_line": 24,
+            "end_column": 17
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "7f3014f9-f956-474f-bfb2-167937f53dd0": {
+        "action": "choice",
+        "id": "7f3014f9-f956-474f-bfb2-167937f53dd0",
+        "type": "block",
+        "options": [
+            [
+                {
+                    "action": "receive",
+                    "id": "26348ae0-dbd1-4099-9705-54d49078c54b",
+                    "value": "button_coffee",
+                    "type": "str",
+                    "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                    "loc": {
+                        "start_line": 26,
+                        "start_column": 14,
+                        "end_line": 26,
+                        "end_column": 37
+                    },
+                    "colour": "rgb(0,192,255)"
+                },
+                {
+                    "action": "goto",
+                    "id": "7e0a3b5e-bd7e-4612-bb11-bbd57dfea7b5",
+                    "value": "coffee",
+                    "type": "str",
+                    "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                    "loc": {
+                        "start_line": 26,
+                        "start_column": 39,
+                        "end_line": 26,
+                        "end_column": 52
+                    },
+                    "colour": "rgb(0,192,255)"
+                }
+            ],
+            [
+                {
+                    "action": "receive",
+                    "id": "2b33d343-6df5-4186-af14-826202ebc23f",
+                    "value": "button_tea",
+                    "type": "str",
+                    "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                    "loc": {
+                        "start_line": 27,
+                        "start_column": 14,
+                        "end_line": 27,
+                        "end_column": 34
+                    },
+                    "colour": "rgb(0,192,255)"
+                }
+            ],
+            [
+                {
+                    "action": "receive",
+                    "id": "905f77a6-0edc-465e-bd94-e1f2fbd28e2d",
+                    "value": "button_lemonade",
+                    "type": "str",
+                    "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                    "loc": {
+                        "start_line": 28,
+                        "start_column": 14,
+                        "end_line": 28,
+                        "end_column": 39
+                    },
+                    "colour": "rgb(0,192,255)"
+                },
+                {
+                    "action": "goto",
+                    "id": "6bd54984-3cc4-4d5e-968f-47c93506f860",
+                    "value": "lemonade",
+                    "type": "str",
+                    "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+                    "loc": {
+                        "start_line": 28,
+                        "start_column": 41,
+                        "end_line": 28,
+                        "end_column": 56
+                    },
+                    "colour": "rgb(0,192,255)"
+                }
+            ]
+        ],
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 25,
+            "start_column": 6,
+            "end_line": 29,
+            "end_column": 7
+        },
+        "colour": "rgb(192,255,0)",
+        "is_block": true
+    },
+    "a55016f2-31bd-4272-9160-164362d97b58": {
+        "action": "state",
+        "id": "a55016f2-31bd-4272-9160-164362d97b58",
+        "type": "str",
+        "name": "coffee",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 31,
+            "start_column": 4,
+            "end_line": 31,
+            "end_column": 18
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "1dead670-66ba-4b0f-89b9-ad03a472af40": {
+        "action": "send",
+        "id": "1dead670-66ba-4b0f-89b9-ad03a472af40",
+        "type": "str",
+        "name": "coffee",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 32,
+            "start_column": 6,
+            "end_line": 32,
+            "end_column": 19
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "d4e30352-1ecd-4fbd-ad96-e2efaea0b994": {
+        "action": "goto",
+        "id": "d4e30352-1ecd-4fbd-ad96-e2efaea0b994",
+        "type": "str",
+        "name": "start",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 33,
+            "start_column": 6,
+            "end_line": 33,
+            "end_column": 18
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "29cc18f0-3768-418a-9992-1b19fd2d5666": {
+        "action": "state",
+        "id": "29cc18f0-3768-418a-9992-1b19fd2d5666",
+        "type": "str",
+        "name": "tea",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 35,
+            "start_column": 4,
+            "end_line": 35,
+            "end_column": 15
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "3f0bb66a-95cc-48b5-80f4-5e68b4e3547d": {
+        "action": "send",
+        "id": "3f0bb66a-95cc-48b5-80f4-5e68b4e3547d",
+        "type": "str",
+        "name": "tea",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 36,
+            "start_column": 6,
+            "end_line": 36,
+            "end_column": 16
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "b822e1c8-f6d8-41d1-a85c-608b54cb7c8a": {
+        "action": "goto",
+        "id": "b822e1c8-f6d8-41d1-a85c-608b54cb7c8a",
+        "type": "str",
+        "name": "start",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 37,
+            "start_column": 6,
+            "end_line": 37,
+            "end_column": 18
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "53de1dc4-1750-4144-8f32-17b05790b640": {
+        "action": "state",
+        "id": "53de1dc4-1750-4144-8f32-17b05790b640",
+        "type": "str",
+        "name": "lemonade",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 39,
+            "start_column": 4,
+            "end_line": 39,
+            "end_column": 20
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "069b58b0-2d14-4d7b-b2ea-7889c7408dc8": {
+        "action": "send",
+        "id": "069b58b0-2d14-4d7b-b2ea-7889c7408dc8",
+        "type": "str",
+        "name": "lemonade",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 40,
+            "start_column": 6,
+            "end_line": 40,
+            "end_column": 21
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "d26564fc-3dba-43e8-add5-553e2f165a08": {
+        "action": "goto",
+        "id": "d26564fc-3dba-43e8-add5-553e2f165a08",
+        "type": "str",
+        "name": "start",
+        "process_id": "9bb8d073-aa4c-43a9-abc4-364e5c7f2d31",
+        "loc": {
+            "start_line": 41,
+            "start_column": 6,
+            "end_line": 41,
+            "end_column": 18
+        },
+        "colour": "rgb(0,192,255)"
+    }
+}

@@ -1,0 +1,276 @@
+{
+    "768ed9f6-c615-4210-8292-99ca33963503": {
+        "action": "process",
+        "id": "768ed9f6-c615-4210-8292-99ca33963503",
+        "type": "str",
+        "name": "anon_0",
+        "process_id": "768ed9f6-c615-4210-8292-99ca33963503",
+        "loc": {
+            "start_line": 1,
+            "start_column": 0,
+            "end_line": 1,
+            "end_column": 18
+        },
+        "colour": "rgb(192,255,0)",
+        "is_block": true,
+        "is_anon": true
+    },
+    "c600d1eb-b69f-44f4-aaba-39a87308792f": {
+        "action": "external",
+        "id": "c600d1eb-b69f-44f4-aaba-39a87308792f",
+        "type": "str",
+        "name": "machine",
+        "process_id": "768ed9f6-c615-4210-8292-99ca33963503",
+        "loc": {
+            "start_line": 1,
+            "start_column": 0,
+            "end_line": 1,
+            "end_column": 18
+        },
+        "colour": "rgb(0,192,255)"
+    },
+    "2245d6c9-7866-45ac-bc22-a8db09d2b268": {
+        "action": "process",
+        "id": "2245d6c9-7866-45ac-bc22-a8db09d2b268",
+        "type": "str",
+        "name": "tea-coffee-coins",
+        "process_id": "2245d6c9-7866-45ac-bc22-a8db09d2b268",
+        "loc": {
+            "start_line": 3,
+            "start_column": 0,
+            "end_line": 30,
+            "end_column": 1
+        },
+        "colour": "rgb(192,255,0)",
+        "is_block": true,
+        "is_anon": false
+    },
+    "67f00371-ec6f-4ec8-a8f3-510ca7f3d12e": {
+        "id": "67f00371-ec6f-4ec8-a8f3-510ca7f3d12e",
+        "name": "3.0",
+        "type": "float",
+        "action": "timeout",
+        "args": null,
+        "process_id": "2245d6c9-7866-45ac-bc22-a8db09d2b268",
+        "loc": {
+            "start_line": 4,
+            "start_column": 1,
+            "end_line": 4,
+            "end_column": 15
+        },
+        "options": null,
+        "is_block": false
+    },
+    "cb6154d1-b7ce-45fc-8e9c-8b4c19f65f4d": {
+        "id": "cb6154d1-b7ce-45fc-8e9c-8b4c19f65f4d",
+        "name": "machine",
+        "type": "str",
+        "action": "channel",
+        "args": null,
+        "process_id": "2245d6c9-7866-45ac-bc22-a8db09d2b268",
+        "loc": {
+            "start_line": 7,
+            "start_column": 1,
+            "end_line": 11,
+            "end_column": 193
+        },
+        "options": null,
+        "is_block": true,
+        "code": [
+            {
+                "action": "stimulus",
+                "type": "str",
+                "name": "coin",
+                "args": [
+                    {
+                        "action": "value",
+                        "value": "integer"
+                    }
+                ],
+                "loc": {
+                    "start_line": 8,
+                    "start_column": 4,
+                    "end_line": 8,
+                    "end_column": 17
+                },
+                "id": "29c797cb-e97d-4f75-bd5e-7e6dc4971923"
+            },
+            {
+                "action": "response",
+                "id": "dc7dc0cf-3e98-4a36-9312-cc44ee5d7463",
+                "args": [
+                    {
+                        "action": "volume",
+                        "id": "692b11b0-4bd4-4cd4-b8fa-f36bf4a94fc8",
+                        "value": "integer",
+                        "type": "sym",
+                        "colour": "rgb(0,192,255)"
+                    }
+                ],
+                "type": "str",
+                "name": "tea",
+                "loc": {
+                    "start_line": 9,
+                    "start_column": 4,
+                    "end_line": 9,
+                    "end_column": 16
+                },
+                "colour": "rgb(0,192,255)",
+                "process_id": "2245d6c9-7866-45ac-bc22-a8db09d2b268"
+            },
+            {
+                "action": "response",
+                "type": "str",
+                "name": "coffee",
+                "args": [
+                    {
+                        "action": "volume",
+                        "value": "integer"
+                    }
+                ],
+                "loc": {
+                    "start_line": 10,
+                    "start_column": 4,
+                    "end_line": 10,
+                    "end_column": 19
+                },
+                "id": "54734c39-9f13-4784-8ef0-eb9ed82e52e9"
+            }
+        ]
+    },
+    "5c7ed6b7-6233-4bc7-8337-0db4809678b2": {
+        "id": "5c7ed6b7-6233-4bc7-8337-0db4809678b2",
+        "name": null,
+        "type": "block",
+        "action": "repeat",
+        "args": null,
+        "process_id": "2245d6c9-7866-45ac-bc22-a8db09d2b268",
+        "loc": {
+            "start_line": 14,
+            "start_column": 1,
+            "end_line": 27,
+            "end_column": 348
+        },
+        "options": [
+            [
+                {
+                    "action": "receive",
+                    "value": "coin",
+                    "args": [
+                        {
+                            "action": "constraint",
+                            "value": "value == 50"
+                        }
+                    ],
+                    "id": "dd3d000f-26cb-4d24-81a1-fbf40411522f",
+                    "loc": {
+                        "start_line": 16,
+                        "start_column": 4,
+                        "end_line": 16,
+                        "end_column": 50
+                    }
+                },
+                {
+                    "action": "send",
+                    "value": "tea",
+                    "args": [
+                        {
+                            "action": "constraint",
+                            "value": "value == 300"
+                        }
+                    ],
+                    "id": "b88314d9-2366-4bf1-86bd-0c1e0114f31f",
+                    "loc": {
+                        "start_line": 17,
+                        "start_column": 4,
+                        "end_line": 17,
+                        "end_column": 47
+                    }
+                }
+            ],
+            [
+                {
+                    "action": "receive",
+                    "id": "cf40c7a4-b4ce-4eec-9fd1-efe6104de618",
+                    "args": [
+                        {
+                            "action": "constraint",
+                            "id": "7a91dc79-30d8-4668-bf46-8b716e497eb2",
+                            "value": "value == 300",
+                            "type": "str",
+                            "colour": "rgb(0,192,255)"
+                        }
+                    ],
+                    "value": "coin",
+                    "type": "str",
+                    "loc": {
+                        "start_line": 20,
+                        "start_column": 4,
+                        "end_line": 20,
+                        "end_column": 51
+                    },
+                    "colour": "rgb(0,192,255)"
+                },
+                {
+                    "action": "send",
+                    "id": "0b9497d8-4f3f-493e-9d82-6955ca93185d",
+                    "args": [
+                        {
+                            "action": "constraint",
+                            "id": "2213a32a-a988-49c3-a188-009d5cfaa76e",
+                            "value": "volume == 300",
+                            "type": "str",
+                            "colour": "rgb(0,192,255)"
+                        }
+                    ],
+                    "value": "coffee",
+                    "type": "str",
+                    "loc": {
+                        "start_line": 21,
+                        "start_column": 4,
+                        "end_line": 21,
+                        "end_column": 51
+                    },
+                    "colour": "rgb(0,192,255)"
+                }
+            ],
+            [
+                {
+                    "action": "receive",
+                    "value": "coin",
+                    "args": [
+                        {
+                            "action": "constraint",
+                            "value": "value == 200"
+                        }
+                    ],
+                    "id": "c83ec369-9472-49a0-b6ba-340288775c91",
+                    "loc": {
+                        "start_line": 24,
+                        "start_column": 4,
+                        "end_line": 24,
+                        "end_column": 51
+                    }
+                },
+                {
+                    "action": "send",
+                    "value": "coffee",
+                    "args": [
+                        {
+                            "action": "constraint",
+                            "value": "volume == 500"
+                        }
+                    ],
+                    "id": "8f5f93a0-c7df-40df-83b6-00f74741c0e9",
+                    "loc": {
+                        "start_line": 25,
+                        "start_column": 4,
+                        "end_line": 25,
+                        "end_column": 51
+                    }
+                }
+            ]
+        ],
+        "is_block": true
+    }
+}
